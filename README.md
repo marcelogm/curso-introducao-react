@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tutorial de Introdução ao React com Next.js
 
-## Getting Started
+Este é um tutorial criado com o objetivo de ensinar conceitos básicos de React, utilizando um projeto pré-criado com Next.js, para os alunos do Instituto Federal do Rio Grande do Sul (IFRS).
 
-First, run the development server:
+Neste tutorial, vamos explorar o projeto existente para entender como o React funciona e aprender alguns conceitos fundamentais.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Pré-requisitos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Antes de começar, é importante ter conhecimento básico de HTML, CSS e JavaScript. Familiaridade com programação em geral será útil para compreender os conceitos abordados neste tutorial.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Além disso, certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo e instalá-lo a partir do [site oficial do Node.js](https://nodejs.org/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Passo 1: Configuração do Ambiente
 
-## Learn More
+1. Clone o projeto existente do GitHub:
+   ```bash
+   git clone https://github.com/marcelogm/curso-introducao-react.git 
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navegue até o diretório do projeto via terminal:
+   ```bash
+   cd curso-introducao-react
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Instale as dependências do projeto:
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Passo 2: Entendendo a Estrutura
 
-## Deploy on Vercel
+1. Abra o projeto em seu editor de código favorito.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navegue até o diretório `src/app`. Nesse diretório, você encontrará os arquivos que definem as rotas da sua aplicação.
+ 
+3. Cada pasta dentro do diretório `src/app` representa uma etapa de aprendizado. Na página principal tem um menu que ajuda a navegar nas páginas.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Passo 3: Rodando o Projeto
+
+1. No terminal, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+2. Abra o navegador e acesse `http://localhost:3000` para ver a página inicial do projeto.
+
+## Passo 4: Explorando Componentes
+
+1. Dentro do diretório do projeto, explore os outros arquivos no diretório `src/app`. Cada arquivo representa uma rota da aplicação.
+
+2. Abra os arquivos da pasta `components` e observe como os componentes são definidos e exportados. Entenda como as páginas são estruturadas com componentes React.
+
+## Continue aprendendo
+
+Lembre-se de que este tutorial cobriu conceitos básicos. Continue aprofundando seus conhecimentos em React consultando a documentação oficial do [React](https://react.dev/learn) e do [Next.js](https://nextjs.org/). Isso o ajudará a construir aplicações web mais complexas e dinâmicas. Feliz aprendizado e prática!
